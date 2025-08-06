@@ -13,7 +13,7 @@ const schema = yup.object().shape({
   password: yup.string().min(6, "Senha deve ter pelo menos 6 caracteres").required("Senha é obrigatória"),
   confirmPassword: yup
     .string()
-    .oneOf([yup.ref("senha"), null], "As senhas devem coincidir")
+    .oneOf([yup.ref("password"), null], "As senhas devem coincidir")
     .required("Confirmação de senha é obrigatória")
 });
 
