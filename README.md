@@ -1,9 +1,3 @@
-## Image
-<p align="center">
-  <a href="">
-    <img src="https://github.com/user-attachments/assets/2b91fcc2-81c8-442d-ac6c-3fb39536b12c" width="600px"/>
-  </a>
-</p>
 
 ## Available Scripts
 
